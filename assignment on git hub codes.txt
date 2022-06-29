@@ -1,3 +1,25 @@
 ***
 
-git status --- to check the status of files
+git status                        # to check the status of files
+git add .                         # to add the pending files to clone file on local system
+
+git commit -m 'type_msg_here'     # to commit the changes on piece of code 
+
+git config --global user.email 'enter_your_email_id_here'  # just follow this code to make the changes on git hub server
+git config --global user.name 'enter_your_github_user_id'   #  same as above comment
+
+# now finally we need to take push the changes to github server
+
+git push 
+
+# now it will ask for user_id and password
+
+# after succesfull execution it will show some msg regarding the process 
+
+# in case of error or push is not getting executed try this
+git pull origin main
+
+# now try using push
+git push
+ 
+ # after this u will be able to succesfully made changes on github server 
